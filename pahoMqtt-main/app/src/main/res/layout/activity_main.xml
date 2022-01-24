@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Hello below you will find your Oxygen levels together with your heartbeat rate :"
+        android:textColor="#515050"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Your Oxygen levels "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_height="2dp" />
+
+
+        <TextView
+            android:id="@+id/SPO2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text=" 0 %"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="38dp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="248dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="#9C1005"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Your HeartBeat rate "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="184dp" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_height="2dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/BPM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="0.0"
+                android:textStyle="bold"
+                android:textSize="38dp"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="248dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="per minute."
+                android:textSize="38dp"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="248dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
