@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "240678351958",
+    "firebase_url": "https://heart-sensor-5d89a-default-rtdb.firebaseio.com",
+    "project_id": "heart-sensor-5d89a",
+    "storage_bucket": "heart-sensor-5d89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240678351958:android:29292d762855a947f8f7f7",
+        "android_client_info": {
+          "package_name": "com.jayr.heartrate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240678351958-194rnofl1a8m6g624ju6uc4gvp2o0oqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXiOZE42MzNGMYw_fgsxL70c77Xc8E8JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240678351958-194rnofl1a8m6g624ju6uc4gvp2o0oqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240678351958:android:8f08f7c019687b54f8f7f7",
+        "android_client_info": {
+          "package_name": "com.jayr.mqttclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240678351958-194rnofl1a8m6g624ju6uc4gvp2o0oqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXiOZE42MzNGMYw_fgsxL70c77Xc8E8JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240678351958-194rnofl1a8m6g624ju6uc4gvp2o0oqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
